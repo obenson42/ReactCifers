@@ -55,12 +55,12 @@ textarea {
     background: transparent;
 }
 
-    #cipher_methods button {
-        padding: 6px 12px;
-        border-top-right-radius: 0.68rem;
-        border: hidden;
-        font-weight: bold;
-    }
+#cipher_methods button {
+    padding: 6px 12px;
+    border-top-right-radius: 0.68rem;
+    border: hidden;
+    font-weight: bold;
+}
 
 .caesar_btn {
     background-color: #ccc;
@@ -79,10 +79,10 @@ textarea {
     background-color: #ccc;
 }
 
-    .playfair_btn:focus, .playfair_btn_active {
-        outline: none;
-        background-color: #cfc;
-    }
+.playfair_btn:focus, .playfair_btn_active {
+    outline: none;
+    background-color: #cfc;
+}
 
 #playfair_properties {
     background-color: #cfc;
@@ -92,19 +92,19 @@ textarea {
     background-color: #ccc;
 }
 
-    .two_square_btn:focus, .two_square_btn_active {
-        outline: none;
-        background-color: #fcc;
-    }
+.two_square_btn:focus, .two_square_btn_active {
+    outline: none;
+    background-color: #fcc;
+}
 
 #cipher_properties {
 }
 
-    #cipher_properties div {
-        border-radius: 0.68rem;
-        border-top-left-radius: 0;
-        padding: 0.7rem;
-    }
+#cipher_properties div {
+    border-radius: 0.68rem;
+    border-top-left-radius: 0;
+    padding: 0.7rem;
+}
 
 #two_square_properties {
     display: grid;
@@ -120,18 +120,18 @@ textarea {
     border-style: hidden;
 }
 
-    .keyword_grid td, .offset_grid td {
-        border: 1px solid #888;
-        width: 1.5em;
-    }
+.keyword_grid td, .offset_grid td {
+    border: 1px solid #888;
+    width: 1.5em;
+}
 
-    .offset_grid tr:first-child td {
-        font-weight: bold;
-    }
+.offset_grid tr:first-child td {
+    font-weight: bold;
+}
 
-    .keyword_grid .keyword {
-        font-weight: bold;
-    }
+.keyword_grid .keyword {
+    font-weight: bold;
+}
 
 #controls div.inactive {
     display: none;
@@ -142,35 +142,47 @@ textarea {
     grid-template-columns: 46% 8% 46%;
 }
 
-    .text_blocks p {
-        text-align: center;
-        font-weight: bold;
-        margin: 0;
-    }
+.text_blocks p {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
 
-    .text_blocks textarea {
-        justify-self: center;
-        width: 95%;
-    }
+.text_blocks textarea {
+    justify-self: center;
+    width: 95%;
+}
 
 #cipher_directions {
     margin-top: 30px;
 }
 
-    #cipher_directions button, #cipher_directions button:visited {
-        margin: 0;
-        padding: 0;
-        border: none;
-        width: 70px;
-        height: 70px;
-        outline: none;
-    }
+#cipher_directions button.ltr, #cipher_directions button.ltr:visited {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 70px;
+    height: 70px;
+    outline: none;
+    background-image: url(./direction_toggle.svg);
+}
+#cipher_directions button.rtl, #cipher_directions button.rtl:visited {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 70px;
+    height: 70px;
+    outline: none;
+    background-image: url(./direction_toggle.svg);
+    transform: scaleY(-1);
+}
 
 #cryptanalysis_tools {
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .frequency_analysis {
@@ -183,11 +195,11 @@ textarea {
     padding: 4px;
 }
 
-    .other_analysis table {
-        border: 1px solid #99f;
-        padding: 2px;
-        text-align: center;
-    }
+.other_analysis table {
+    border: 1px solid #99f;
+    padding: 2px;
+    text-align: center;
+}
 
 .method_props {
     width: 60px;
@@ -199,27 +211,27 @@ textarea {
     border: 1px solid black;
 }
 
-    .info .clearText {
-        grid-area: clear;
-    }
+.info .clearText {
+    grid-area: clear;
+}
 
-    .info .codedText {
-        grid-area: coded;
-    }
+.info .codedText {
+    grid-area: coded;
+}
 
 .frequency {
     border: 1px solid #99f;
     height: 100px
 }
 
-    .frequency th {
-        text-align: left;
-    }
+.frequency th {
+    text-align: left;
+}
 
-    .frequency td {
-        font-size: .5em;
-        text-align: center;
-    }
+.frequency td {
+    font-size: .5em;
+    text-align: center;
+}
 
 .letter {
 }
