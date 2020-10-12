@@ -1,4 +1,4 @@
 # ReactCifers
 Teaching myself React, playing with old fashioned cifers
 
-You can see this in action here: https://codepen.io/obenson42/pen/RwaQyvv
+The code here is intended to work with node.js but you can see this in action online here: https://codepen.io/obenson42/pen/RwaQyvv
